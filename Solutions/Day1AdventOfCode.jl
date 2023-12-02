@@ -22,4 +22,4 @@ function getTotal(fileName,mode)
     end
 end
 
-print(getTotal("C:/Users/megki/Documents/AdventOfCode2023/Day1AdventOfCodeExampleText.txt","digit"))
+print(getTotal("Day1AdventOfCodeExampleText.txt","digit"))
