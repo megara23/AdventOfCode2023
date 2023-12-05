@@ -47,6 +47,6 @@ return counter
 end
 
 ##Convert text file into a matrix file
-lines = map(collect, readlines("C:/Users/megki/Documents/AdventOfCode2023/Day3AdventOfCodeExampleText.txt"))
+lines = map(collect, readlines("Day3AdventOfCodeExampleText.txt"))
 mat = permutedims(hcat(lines...))
 print(mainFunction(mat))
